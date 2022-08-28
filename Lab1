@@ -1,0 +1,7 @@
+def maxMultiple(divisor, bound):
+    n = bound % divisor
+    return bound - n
+
+
+print(maxMultiple(3, 10))
+
